@@ -1,11 +1,23 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div>
+    <nav>
+    </nav>
+    <router-view/>
+    <DoubleNav></DoubleNav>
+    <Footer></Footer>  
+  </div>
 </template>
 
+<script>
+import DoubleNav from '@/components/DoubleNav.vue'
+import Footer from '@/components/FooterC.vue'
+export default {
+  components: { 
+    Footer ,
+    DoubleNav
+  },
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
