@@ -1,4 +1,4 @@
-# avg
+# frontend
 
 ## Project setup
 ```
