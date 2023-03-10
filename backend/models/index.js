@@ -40,6 +40,15 @@ class user {
         )
     }
 
+    async addUser(data, result) {
+        data.userPass = await bcrypt.hash(data.userPass, 15);
+        sql.query(`INSERT INTO users SET ?;`, [data], (err, results) => {
+          if (err) result(err, null);
+          else result(null, results);
+        });
+      }
+      
+
     updateUser(data, id, result){
         if(data.userPass !== null || data.userPass !== undefined) data.userPass = bcrypt.hashSync(data.userPass, 15);
         sql.query(`UPDATE users SET ? WHERE userID = ?;`, [data, id], (err, results) => {
