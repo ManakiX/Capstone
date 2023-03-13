@@ -1,9 +1,7 @@
 <template>
   <div>
-    <nav>
-    </nav>
-    <router-view/>
     <DoubleNav></DoubleNav>
+    <router-view/>
     <Footer></Footer>  
   </div>
 </template>
