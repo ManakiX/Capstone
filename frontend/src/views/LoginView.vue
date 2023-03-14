@@ -25,7 +25,6 @@
     },
     methods: {
       login() {
-        // Perform login logic here
       }
     }
   }
@@ -33,13 +32,21 @@
   
   <style scoped>
   .login-container {
-    background-color: #000;
     color: #fff;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    background-image: url('https://i.postimg.cc/4ymwDgqT/Archie-Vable-Gaming-Logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    z-index: 1;
   }
+
   
   .login-form {
     background-color: #2ecc71;

@@ -35,6 +35,11 @@ const routes = [
     path: '/viewmore',
     name: 'singleproducts',
     component: () => import('../views/SingleProdView.vue')
+  },
+  {
+    path: '/contact',
+    name: 'contactme',
+    component: () => import('../views/ContactMeView.vue')
   }
 ]
 

@@ -6,14 +6,16 @@
           <h5>About Me</h5>
           <ul>
             <li><a href="#">My Story</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href="#">Contact Me</a>
+            <p>079 308 6789</p>
+            </li>
           </ul>
         </div>
 
         <div class="footer__column">
           <h5>Follow Me</h5>
           <ul>
-            <li><a href="#">Facebook</a></li>
+            <li><a href="#" class="fa fa-">Facebook</a></li>
             <li><a href="#">Twitter</a></li>
             <li><a href="#">Instagram</a></li>
           </ul>

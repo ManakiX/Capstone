@@ -85,6 +85,8 @@ export default {
   height: 5px;
   background: linear-gradient(to right, #37a000 0% , #37a000 25%, #494949 25%, #494949 50%, #37a000 50%, #37a000 75%, #494949 75%, #494949 100%);
 }*/
+
+
 .nav-container{
   position: absolute;
   width: 100%;
@@ -101,6 +103,7 @@ export default {
   align-items: center;
   position: sticky;
   top: 0;
+  z-index: 1000000;
 }
 
 .bottom_nav .left{

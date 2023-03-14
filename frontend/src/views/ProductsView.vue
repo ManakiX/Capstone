@@ -51,10 +51,14 @@ export default {
   <style scoped>
 
   body {
+    position: relative;
     background-image: url('https://i.postimg.cc/4ymwDgqT/Archie-Vable-Gaming-Logo.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    z-index: 1;
   }
   button {
     background-color: grey;
@@ -70,8 +74,8 @@ export default {
     border-radius: 5px;
   }
 
-  button :hover{
-    color: green;
+  button:hover{
+    background-color: green;
   }
   
   
@@ -79,6 +83,7 @@ export default {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    z-index: 10000000000000000000;
   }
 
   .products {

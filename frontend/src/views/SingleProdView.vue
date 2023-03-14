@@ -9,6 +9,6 @@ export default {
     
 }
 </script>
-<style lang="">
+<styles scoped>
     
-</style>
+</styles>

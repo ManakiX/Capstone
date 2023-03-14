@@ -23,7 +23,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  position: relative;
+  z-index: 2;
 }
+
 
 nav {
   padding: 30px;
