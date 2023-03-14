@@ -154,6 +154,11 @@ export default {
   background: black;
   height: 45px;
   padding: 0 50px;
+  
+}
+
+.top_nav :hover{
+  color: green;
 }
 
 .top_nav ul{
